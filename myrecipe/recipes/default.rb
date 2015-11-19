@@ -1,5 +1,8 @@
-node[:deploy].each do |app_name, deploy|
-  package "zsh" do
-    action :install
-  end
+#
+# Cookbook Name:: myrecipe
+# Recipe:: default
+#
+
+package "zsh" do
+  action :install
 end
