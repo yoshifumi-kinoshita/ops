@@ -5,3 +5,4 @@ license     "Apache 2.0"
 version     "1.0.0"
 
 recipe "myrecipe", "Main configuration"
+recipe "myrecipe::myheader", "myheader..."
